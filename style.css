@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('/static/chromebook wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+  text-align: center;
+  padding: 50px;
+  backdrop-filter: blur(2px);
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff66b2;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+button {
+  background-color: #ff4da6;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff1a8c;
+  transform: scale(1.05);
+}
+
+
